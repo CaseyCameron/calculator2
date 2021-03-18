@@ -21,26 +21,44 @@
     <main>
         <section class="main-section">
             <img class="main-logo" src="assets/alchemy-logo.png"/>
-            <h2>
-                Welcome to Alchemy Bootstrap!
+            <h2 style="color: cadetblue">
+                Welcome to Alchemy Calculator!
             </h2>
 
-            <content>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
+            <content class="calculator-wrapper">
+                <content class ="add">
+                    <input class="text" id ="add-input-1"/>
+                    <div class="text" >+</div>
+                    <input class="text" id="add-input-2"/>
+
+                    <div>Result: <span class="text" id="add-result">0</span></div>
+                    <button class ="button" id="add-button">Add</button>
+                </content>                
+                <content class ="subtract">
+                    <input class="text" id ="subtract-input-1"/>
+                    <div class="text" >-</div>
+                    <input class="text" id="subtract-input-2"/>
+
+                    <div>Result: <span class="text" id="subtract-result">0</span></div>
+                    <button class ="button" id="subtract-button">Subtract</button>
+                </content>
+                <content class ="multiply">
+                    <input class="text" id ="multiply-input-1"/>
+                    <div class="text" >*</div>
+                    <input class="text" id="multiply-input-2"/>
+
+                    <div>Result: <span class="text" id="multiply-result">0</span></div>
+                    <button class ="button" id="multiply-button">Multiply</button>
+                </content>
+                <content class ="divide">
+                    <input class="text" id ="divide-input-1"/>
+                    <div class="text" >/</div>
+                    <input class="text" id="divide-input-2"/>
+
+                    <div>Result: <span class="text" id="divide-result">0</span></div>
+                    <button class ="button" id="divide-button">Divide</button>
+                </content>
+            </content>
 
         </section>
     </main>

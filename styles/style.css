@@ -66,6 +66,13 @@ h2 {
     font-weight: bold;
 }
 
+h2:hover{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
 .gutter-right {
     margin-right: 20px;
 }
@@ -78,8 +85,6 @@ header img {
     height: var(--header-height);
 }
 
-
-
 content {
     width: 80%;
 }
@@ -87,7 +92,77 @@ content {
 p {
     margin: var(--gutter);
 }
-  
+
+.calculator-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.add{
+    display: grid;
+    justify-content: center;
+    width: 175px;
+    padding: 15px;
+}
+
+.subtract{
+    display: grid;
+    justify-content: center;
+    width: 175px;
+    padding: 15x;
+}
+
+.multiply{
+    display: grid;
+    justify-content: center;
+    width: 175px;
+    padding: 15x;
+}
+
+.divide{
+    display: grid;
+    justify-content: center;
+    width: 175px;
+    padding: 15px;
+}
+
+.text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.button{
+    background-color: cadetblue;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    border-left: none;
+    border-right: none;
+}
+
+.button:hover{
+    background-color:darkseagreen;
+    border: none;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    border-left: none;
+    border-right: none;
+    box-shadow: 2px 2px 10px 2px;
+    border-radius: 10px 10px 10px 10px;
+}
+
 footer {
     position: fixed;
     width: 100%;
