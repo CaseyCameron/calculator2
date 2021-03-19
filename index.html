@@ -32,7 +32,7 @@
                     <input class="text" id="add-input-2"/>
 
                     <div>Result: <span class="text" id="add-result">0</span></div>
-                    <button class ="button" id="add-button">Add</button>
+                    <button class ="button" value ="add" id="add-button">Add</button>
                 </content>                
                 <content class ="subtract">
                     <input class="text" id ="subtract-input-1"/>
@@ -40,7 +40,7 @@
                     <input class="text" id="subtract-input-2"/>
 
                     <div>Result: <span class="text" id="subtract-result">0</span></div>
-                    <button class ="button" id="subtract-button">Subtract</button>
+                    <button class ="button" value="subtract" id="subtract-button">Subtract</button>
                 </content>
                 <content class ="multiply">
                     <input class="text" id ="multiply-input-1"/>
@@ -48,7 +48,7 @@
                     <input class="text" id="multiply-input-2"/>
 
                     <div>Result: <span class="text" id="multiply-result">0</span></div>
-                    <button class ="button" id="multiply-button">Multiply</button>
+                    <button class ="button" value="multiply" id="multiply-button">Multiply</button>
                 </content>
                 <content class ="divide">
                     <input class="text" id ="divide-input-1"/>
@@ -56,7 +56,21 @@
                     <input class="text" id="divide-input-2"/>
 
                     <div>Result: <span class="text" id="divide-result">0</span></div>
-                    <button class ="button" id="divide-button">Divide</button>
+                    <button class ="button" value="divide" id="divide-button">Divide</button>
+                </content>
+                <content class ="universal">
+                    <input class="text" id ="universal-input-1"/>
+                    <form name="form1" id="form1" action="/action_page.php">
+                        <select name="subject" id="subject">
+                          <option value="special-add" selected="special-add">+</option>
+                          <option value="subtract" selected="selected">-</option>
+                          <option value="multiply" selected="selected">*</option>
+                          <option value="divide" selected="selected">/</option>
+                        </select>
+                      </form>
+                    <input class="text" id="universal-input-2"/>
+                    <div>Result: <span class="text" id="universal-result">0</span></div>
+                    <button class ="button" value="universal" id="universal-button">Calculate</button>
                 </content>
             </content>
 
